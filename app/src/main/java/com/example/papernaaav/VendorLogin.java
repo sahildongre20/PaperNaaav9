@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class RegistrationSuccesfull extends AppCompatActivity {
+public class VendorLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration_succesfull);
+        setContentView(R.layout.activity_vendor_login);
     }
 
-    public void redirect(View view) {
-        startActivity(new Intent(getApplicationContext(),Login.class));
+    public void vregister(View view) {
+        startActivity(new Intent(getApplicationContext(),VendorRegistration.class));
     }
 }

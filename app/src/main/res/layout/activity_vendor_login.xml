@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
     android:background="@color/bg"
-    >
-
+    tools:context=".VendorLogin">
     <ImageView
         android:id="@+id/logo"
         android:layout_width="294dp"
@@ -57,7 +55,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello,there!"
+        android:text="Hello,there Vendor!"
         android:textColor="#fff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -103,19 +101,20 @@
     </Button>
 
     <Button
-        android:onClick="register"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:background="@drawable/buttonbg"
         android:text="Signup?"
         android:textColor="#fff"
+        android:onClick="vregister"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813">
+        app:layout_constraintVertical_bias="0.813"
+        >
 
     </Button>
 
@@ -131,4 +130,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.932" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

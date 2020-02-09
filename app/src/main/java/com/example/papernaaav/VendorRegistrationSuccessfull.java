@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Login extends AppCompatActivity {
+public class VendorRegistrationSuccessfull extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_vendor_registration_successfull);
     }
 
-    public void register(View view) {
-    startActivity(new Intent(getApplicationContext(),Register.class));
-
+    public void start(View view) {
+        startActivity(new Intent(getApplicationContext(),MainActivity.class));
     }
 }

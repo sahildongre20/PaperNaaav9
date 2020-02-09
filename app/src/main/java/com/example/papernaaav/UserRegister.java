@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Register extends AppCompatActivity {
+public class UserRegister extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_userregister);
     }
 
     public void done(View view) {
-        startActivity(new Intent(getApplicationContext(),RegistrationSuccesfull.class));
+        startActivity(new Intent(getApplicationContext(), UserRegistrationSuccesfull.class));
     }
 }

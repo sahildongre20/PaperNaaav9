@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrationSuccesfull"
+    tools:context=".VendorRegistrationSuccessfull"
     android:background="@color/bg"
     >
 
@@ -23,10 +23,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
-
-
     <TextView
-        android:id="@+id/line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PaperNaav"
@@ -37,55 +34,44 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
+        app:layout_constraintVertical_bias="0.416" />
+
 
     <TextView
-        android:id="@+id/line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to the Family!"
         android:textColor="#fff"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
 
     <TextView
         android:id="@+id/line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registration Succesfull."
+        android:padding="20dp"
+        android:text="Registration Succesfull,our executive will come to the provided address for doorstep verification"
+        android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
-
-    <TextView
-        android:id="@+id/line"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click the button to login. "
-        android:textColor="#fff"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.787" />
+        app:layout_constraintVertical_bias="0.745" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:background="@drawable/buttonbg"
-        android:onClick="redirect"
-        android:text="Login!"
+        android:onClick="start"
+        android:text="Return"
         android:textColor="#fff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -93,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7">
+        app:layout_constraintVertical_bias="0.861">
 
     </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>
