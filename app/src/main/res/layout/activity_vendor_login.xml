@@ -89,6 +89,7 @@
         android:layout_height="50dp"
         android:background="@drawable/buttonbg"
         android:text="Login!"
+        android:onClick="dashboardo"
         android:textColor="#fff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -17,4 +17,6 @@ public class VendorLogin extends AppCompatActivity {
     public void vregister(View view) {
         startActivity(new Intent(getApplicationContext(),VendorRegistration.class));
     }
+
+
 }

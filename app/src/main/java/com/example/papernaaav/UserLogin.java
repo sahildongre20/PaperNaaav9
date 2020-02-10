@@ -21,6 +21,6 @@ public class UserLogin extends AppCompatActivity {
 
 
     public void dasboard(View view) {
-        startActivity(new Intent(getApplicationContext(),Dashboard.class));
+        startActivity(new Intent(getApplicationContext(),Dashboardo.class));
     }
 }

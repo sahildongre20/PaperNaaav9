@@ -1,6 +1,9 @@
 package com.example.papernaaav;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,4 +30,8 @@ public class Dashboardo extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
+    public void edit_profile(View view) {
+        startActivity(new Intent(getApplicationContext(),Edit_Profile.class));
+
+    }
 }
