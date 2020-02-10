@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Dashboardo"
+            android:label="@string/title_activity_dashboardo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            ></activity>
+        <activity
             android:name=".Dashboard"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
